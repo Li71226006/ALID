@@ -14,7 +14,7 @@ The Artificial Laparoscopic Instrument Dataset (ALID) is a fine-grained labelled
 
 ### Annotation Process
 
-The ALID dataset was collaboratively overseen by two medical students(one with knowledge of and involvement in laparoscopic surgery and one with a research interest in medical image processing). Annotation was facilitated by six other researchers using *Efficient Interactive Segmentation* ([EISeg](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.8/EISeg)) toolbox, a high-precision interactive annotation tool. In this case, a frame would be annotated by two annotators and a reviewer would do the initial review and revision. Finally, it was presented to two medical students (experts) for final review and revision.
+The ALID dataset was collaboratively overseen by two Medical consultants(one with knowledge of and involvement in laparoscopic surgery and one with a research interest in medical image processing). Annotation was facilitated by six other researchers using *Efficient Interactive Segmentation* ([EISeg](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.8/EISeg)) toolbox, a high-precision interactive annotation tool. In this case, a frame would be annotated by two annotators and a reviewer would do the initial review and revision. Finally, it was presented to two medical consultants (experts) for final review and revision.
 
 
 
