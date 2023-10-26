@@ -19,13 +19,13 @@ The ALID dataset was collaboratively overseen by two medical students(one with k
 
 
 
-![](C:\Users\Zha Zha\Desktop\ALID\Process.png)
+<img src=".\Process.png" style="zoom:50%;" />
 
 ### Annotation Status
 
 Each frame is annotated with three categories: background, shaft, and manipulator.
 
-![](C:\Users\Zha Zha\Desktop\ALID\label.png)
+<img src=".\label.png" style="zoom:50%;" />
 
 The ALID dataset contains 1 250 images with the size of 1080 × 1920, involving six scenarios of occlusion, illumination imbalance, category imbalance, smoke, motion artefacts, and blood stains, also including their pair-wise combinations.
 
