@@ -4,9 +4,8 @@
 
 ### Data Acquisition Device
 
-The Artificial Laparoscopic Instrument Dataset (ALID) is a fine-grained labelled dataset acquired on the BellySim lumpectomy
+The Artificial Laparoscopic Instrument Dataset (ALID) is a fine-grained labelled dataset acquired on the BellySim lumpectomy simulation training system.
 
- simulation training system.
 - In order to simulate multi-station clinical training for thoracoscopic and laparoscopic surgery in the form of an artificial pneumoperitoneum, two different stations have been designed.
 - The training system consists of trocars, a 30-degree focusable endoscope, a pneumoperitoneum morphology experimental platform, scissors, grasping forceps, and detachment forceps.
  <img src=".\system.png" style="zoom: 50%;" />
