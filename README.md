@@ -1,6 +1,8 @@
 <img src=".\pic.png" style="zoom: 50%;" />
 
-### Description
+# Description
+
+### Data Acquisition Device
 
 The Artificial Laparoscopic Instrument Dataset (ALID) is a fine-grained labelled dataset acquired on the BellySim lumpectomy
 
@@ -11,7 +13,35 @@ The Artificial Laparoscopic Instrument Dataset (ALID) is a fine-grained labelled
 
 
 
-- The ALID dataset contains 1 250 images with the size of 1080 × 1920, involving six scenarios of occlusion, illumination imbalance, category imbalance, smoke, motion artefacts, and blood stains, also including their pair-wise combinations.
+### Annotation Process
+
+The ALID dataset was collaboratively overseen by two medical students(one with knowledge of and involvement in laparoscopic surgery and one with a research interest in medical image processing). Annotation was facilitated by six other researchers using *Efficient Interactive Segmentation* ([EISeg](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.8/EISeg)) toolbox, a high-precision interactive annotation tool. In this case, a frame would be annotated by two annotators and a reviewer would do the initial review and revision. Finally, it was presented to two medical students (experts) for final review and revision.
+
+
+
+![](C:\Users\Zha Zha\Desktop\ALID\Process.png)
+
+### Annotation Status
+
+Each frame is annotated with three categories: background, shaft, and manipulator.
+
+![](C:\Users\Zha Zha\Desktop\ALID\label.png)
+
+The ALID dataset contains 1 250 images with the size of 1080 × 1920, involving six scenarios of occlusion, illumination imbalance, category imbalance, smoke, motion artefacts, and blood stains, also including their pair-wise combinations.
+
+Here are the specific settings and collection procedures for the three scenarios:
+
+###### Smoke Simulation:
+
+We utilize a humidifier to generate a smoke effect. The humidifier is strategically positioned at various locations and operates continuously for 1 minute. This approach captures the progression of smoke, from its onset to even dispersion and its gradual intensification.
+
+###### Blood Stain Simulation:
+
+Artificial blood plasma is employed to simulate blood stains. We smear different concentrations of the plasma on varied parts of the artificial tissue. Then, by moving the surgical instruments in contact with the tissue, we emulate the effect of instruments becoming stained.
+
+###### Motion Artifact Simulation:
+
+Motion artifacts are simulated by swiftly moving the surgical instruments within the camera's viewing window. To encapsulate a range of artifact effects, the operator attempts various movement directions and speeds, without the need for precise numerical consistency.
 
 <img src=".\classes.png" style="zoom:25%;" />
 
