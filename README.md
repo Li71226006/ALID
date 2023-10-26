@@ -31,15 +31,15 @@ The ALID dataset contains 1 250 images with the size of 1080 × 1920, involving 
 
 Here are the specific settings and collection procedures for the three scenarios:
 
-###### Smoke Simulation:
+##### Smoke Simulation:
 
 We utilize a humidifier to generate a smoke effect. The humidifier is strategically positioned at various locations and operates continuously for 1 minute. This approach captures the progression of smoke, from its onset to even dispersion and its gradual intensification.
 
-###### Blood Stain Simulation:
+##### Blood Stain Simulation:
 
 Artificial blood plasma is employed to simulate blood stains. We smear different concentrations of the plasma on varied parts of the artificial tissue. Then, by moving the surgical instruments in contact with the tissue, we emulate the effect of instruments becoming stained.
 
-###### Motion Artifact Simulation:
+##### Motion Artifact Simulation:
 
 Motion artifacts are simulated by swiftly moving the surgical instruments within the camera's viewing window. To encapsulate a range of artifact effects, the operator attempts various movement directions and speeds, without the need for precise numerical consistency.
 
