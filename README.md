@@ -32,15 +32,15 @@ Here are the specific settings and collection procedures for the three scenarios
 
 ##### Smoke Simulation:
 
-We utilize a humidifier to generate a smoke effect. The humidifier is strategically positioned at various locations and operates continuously for 1 minute. This approach captures the progression of smoke, from its onset to even dispersion and its gradual intensification.
+We use a humidifier to generate a smoke effect, strategically positioning it at various locations. The humidifier operates continuously for one minute, allowing us to capture the smoke's pro-gression from its onset, through even dispersion, to gradual intensification.
 
 ##### Blood Stain Simulation:
 
-Artificial blood plasma is employed to simulate blood stains. We smear different concentrations of the plasma on varied parts of the artificial tissue. Then, by moving the surgical instruments in contact with the tissue, we emulate the effect of instruments becoming stained.
+Artificial blood plasma is used to simulate blood stains. We apply different concentrations of plasma to various parts of the artificial tissue and then move the surgical instruments in con-tact with the tissue to emulate the effect of staining.
 
 ##### Motion Artifact Simulation:
 
-Motion artifacts are simulated by swiftly moving the surgical instruments within the camera's viewing window. To encapsulate a range of artifact effects, the operator attempts various movement directions and speeds, without the need for precise numerical consistency.
+Motion artifacts are simulated by rapidly moving the surgical instruments within the camera's field of view. The operator performs a variety of movements at different speeds and directions to capture a range of artifact effects, without the necessity for precise numerical consistency.
 
 <img src=".\classes.png" style="zoom:25%;" />
 
