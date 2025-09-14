@@ -58,5 +58,5 @@ The corresponding number of categories is as follows:
 ### Contact
 
 For more information and access to datasets please contact us
-(wangzhengyu_hfut@hfut.edu.cn)
+(wangzhengyu_hfut@hfut.edu.cn,lzq_hfut_2021@163.com)
 
